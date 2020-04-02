@@ -9,8 +9,8 @@ import bot
 
 def main():
     player_config = [
-        Bot(Race.Random, bot.LoockaBot()),
-        Computer(Race.Random, Difficulty.VeryHard)
+        Bot(Race.Terran, bot.LoockaBot()),
+        Computer(Race.Terran, Difficulty.VeryHard)
     ]
 
     gen = sc2.main._host_game_iter(
